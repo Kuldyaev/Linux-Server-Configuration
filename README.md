@@ -36,4 +36,8 @@ log
 
     sudo adduser grader
 
-8.
+8.Check the SODOERS directory
+
+    sudo ls /etc/sudoers.d
+    
+9.
