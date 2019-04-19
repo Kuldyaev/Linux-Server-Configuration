@@ -28,9 +28,9 @@ log
 
     sudo apt-get install finger
     
-6. Install GIT
+6.Install GIT
 
-       sudo apt-get install git-core
+    sudo apt-get install git-core
     
 7.Create new user
 
