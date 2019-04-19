@@ -24,4 +24,8 @@ log
 
     sudo apt-get apgrade
     
+5.Install Finger application
 
+    sudo apt-get install finger
+    
+6.
