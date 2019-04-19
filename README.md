@@ -28,4 +28,8 @@ log
 
     sudo apt-get install finger
     
-6.
+6. Install GIT
+
+    sudo apt-get install git-core
+    
+7.
