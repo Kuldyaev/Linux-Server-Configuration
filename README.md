@@ -20,4 +20,8 @@ log
 
     sudo apt-get update
 
-4.
+4.Update the software
+
+    sudo apt-get apgrade
+    
+
