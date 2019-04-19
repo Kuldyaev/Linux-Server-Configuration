@@ -14,5 +14,10 @@ log
 2.Create Viirtual Mashine with Ubuntu 16
 
 
-![demo](https://github.com/Kuldyaev/CatalogWWW/blob/master/static/img/screenshot.JPG) 
+![demo](https://github.com/Kuldyaev/Linux-Server-Configuration/blob/master/images/ubuntussh.JPG) 
 
+3.Update package sourse list
+
+    sudo apt-get update
+
+4.
