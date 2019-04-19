@@ -22,7 +22,7 @@ log
 
 4.Update the software
 
-    sudo apt-get apgrade
+    sudo apt-get upgrade
     
 5.Install Finger application
 
