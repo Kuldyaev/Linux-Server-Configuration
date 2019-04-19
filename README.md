@@ -32,4 +32,8 @@ log
 
        sudo apt-get install git-core
     
-7.kjhh
+7.Create new user
+
+    sudo adduser grader
+
+8.
