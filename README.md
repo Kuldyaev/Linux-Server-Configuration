@@ -30,6 +30,6 @@ log
     
 6. Install GIT
 
-    sudo apt-get install git-core
+       sudo apt-get install git-core
     
 7.
