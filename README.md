@@ -32,6 +32,12 @@ log
 
     sudo apt-get install git-core
     
+7.Change settings Amazon Lightsail firewall. Open ports 2200 and 127.
+![demo](https://github.com/Kuldyaev/Linux-Server-Configuration/blob/master/images/AmazFirewall.JPG)
+
+
+
+
 7.Create new user
 
     sudo adduser grader
