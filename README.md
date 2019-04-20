@@ -52,4 +52,13 @@ log
 
     $ ssh-keygen
     
-12.
+12.Login as 'grader' user
+
+    sudo login grader
+    
+13.Create directory .ssh and authorized_keys file
+
+    mkdir .ssh
+    torch .ssh/authorized_keys
+    
+14.
