@@ -61,4 +61,8 @@ log
     mkdir .ssh
     touch .ssh/authorized_keys
     
-14.
+14.Check status UFW program for firewall
+
+    sudo ufw status
+    
+
