@@ -40,4 +40,16 @@ log
 
     sudo ls /etc/sudoers.d
     
-9.
+9.Create file 'grader' in /etc/sudoers.d directory
+
+    sudo nano /etc/sudoers.d/grader
+    
+10.Add text in file 'grader'
+    
+    grader ALL=(ALL) NOPASSWD:ALL
+    
+11.Create pair of keys on local machine and copy public key
+
+    $ ssh-keygen
+    
+12.
