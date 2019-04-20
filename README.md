@@ -59,6 +59,6 @@ log
 13.Create directory .ssh and authorized_keys file
 
     mkdir .ssh
-    torch .ssh/authorized_keys
+    touch .ssh/authorized_keys
     
 14.
