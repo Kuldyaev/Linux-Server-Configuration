@@ -56,7 +56,7 @@ log
 
     sudo login grader
     
-13.Create directory .ssh and authorized_keys file
+13.Create directory .ssh and authorized_keys file. Copy public key in 'authorized_keys' file
 
     mkdir .ssh
     touch .ssh/authorized_keys
