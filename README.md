@@ -48,37 +48,37 @@ log
     sudo ufw enable
     sudo ufw status
 
-7.Create new user
+9.Create new user
 
     sudo adduser grader
 
-8.Check the SODOERS directory
+10.Check the SODOERS directory
 
     sudo ls /etc/sudoers.d
     
-9.Create file 'grader' in /etc/sudoers.d directory
+11.Create file 'grader' in /etc/sudoers.d directory
 
     sudo nano /etc/sudoers.d/grader
     
-10.Add text in file 'grader'
+12.Add text in file 'grader'
     
     grader ALL=(ALL) NOPASSWD:ALL
     
-11.Create pair of keys on local machine and copy public key
+13.Create pair of keys on local machine and copy public key
 
     $ ssh-keygen
     
-12.Login as 'grader' user
+14.Login as 'grader' user
 
     sudo login grader
     
-13.Create directory .ssh and authorized_keys file. Copy public key in 'authorized_keys' file
+15.Create directory .ssh and authorized_keys file. Copy public key in 'authorized_keys' file
 
     mkdir .ssh
     touch .ssh/authorized_keys
     
-14.Check status UFW program for firewall
+16.Upload programs for web-catalog
 
-    sudo ufw status
+    sudo apt-get install
     
 
