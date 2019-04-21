@@ -35,8 +35,18 @@ log
 7.Change settings Amazon Lightsail firewall. Open ports 2200 and 127.
 ![demo](https://github.com/Kuldyaev/Linux-Server-Configuration/blob/master/images/AmazFirewall.JPG)
 
+8.Configure ufw firewall on server
 
-
+    sudo ufw status
+    sudo ufw default deny incoming
+    sudo ufw default allow outgoing
+    sudo ufw allow ssh
+    sudo ufw allow www
+    sudo utw allow ntp
+    sudo ufw allow 2200/tcp
+    sudo ufw allow 123/tcp
+    sudo ufw enable
+    sudo ufw status
 
 7.Create new user
 
