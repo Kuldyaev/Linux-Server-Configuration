@@ -1,5 +1,8 @@
 # Linux-Server-Configuration
 
+IP.54.164.52.239
+name: grader
+pass: udacity
 
 
 
@@ -79,8 +82,15 @@ log
     
 16.Upload programs for web-catalog
 
-    sudo apt-get install python3-flask
+    sudo apt install python3-pip
     sudo apt-get install python-sqlalchemy
+    sudo pip install Flask
+    
+17.Clone WWW-Catalog from GitHub
+
+    git clone https://github.com/Kuldyaev/CatalogWWW
+    
+18.Start web server
     
     
 
