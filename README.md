@@ -79,6 +79,8 @@ log
     
 16.Upload programs for web-catalog
 
-    sudo apt-get install
+    sudo apt-get install python3-flask
+    sudo apt-get install python-sqlalchemy
+    
     
 
